@@ -1,0 +1,166 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.headerBg{
+    background: url("./assets//header-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 280px;
+    margin-top: -3rem;
+    
+}
+#motor{
+    position: relative;
+    z-index: 200;
+    bottom: 12rem;
+    text-align: center;
+    color: #fff;
+}
+
+.valleyBg{
+    background: url('../assets/welcome-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.motoLogo{
+    position: relative;
+    text-align: center;
+}
+.navbar{
+        position: absolute;
+        top: 16%;
+        z-index: 400;
+        left: 0;
+        right: 0;
+}
+
+.nav-item{
+    margin-right: 3rem;
+}
+
+/* Slider */
+.sliderContent, .sectionTwo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inner{
+    gap: 2rem;
+}
+.inner, .two-main{
+    display: flex;
+    width: 70%;
+}
+.inner h3{
+    color: #B03535;
+}
+.inner h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.inner p{
+    color: #fff;
+}
+
+
+.sectionTwo{
+    background-color: #EAE9EF;
+}
+.firstColumn,.secondColumn{
+    flex-basis: 50%;
+}
+.secondColumn{
+    padding: 2.4rem;
+    background-color: #fff;
+}
+.secondColumn p{
+    font-size: 0.9rem;
+}
+.secondColumn button{
+    background-color: #D54A4A;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.4rem;
+    border: none;
+    border-left: 7px solid #000;
+    color: #fff;
+}
+.two-sub{
+    display: flex;
+    margin: 2rem 0;
+}
+
+.maecenas{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/banner-bg.jpg") no-repeat left top;
+    background-size: cover;
+    height: 90px;
+}
+.play{
+    background-color: #B03535;
+}
+
+/*Footer */
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url('../assets/footer-bg.jpg') no-repeat left top;
+    background-size: cover;
+    height: 490px;
+}
+.sectionFive{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 74%;
+}
+.footer-main{
+    display: flex;
+}
+.footer-menu{
+    flex-basis: 25%;
+}
+.footer-about{
+    flex-basis: 45%;
+}
+.footer-social{
+    flex-basis: 30%;
+}
+.footer-menu h2, .footer-about h2,
+.footer-social h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footer-about p, .footer-social p{
+    font-size: 0.9rem;
+}
+.footer-menu ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-menu li{
+    margin-top: 1rem;
+}
+.footer-menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-menu li a:hover{
+    color: #B03535;
+}
+.copyRight img{
+    position: relative;
+}
+.copyRight p{
+    position: absolute;
+    margin-top: -3rem;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
